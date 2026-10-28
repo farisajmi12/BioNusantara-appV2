@@ -488,10 +488,6 @@ const Welcome = ({ stats, species = [] }: WelcomeProps) => {
                             className="mx-auto max-w-4xl text-center"
                             {...fadeUp}
                         >
-                            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-4 py-1.5 text-sm font-medium text-white backdrop-blur-md">
-                                <Sparkles className="h-4 w-4 text-emerald-300" />
-                                Platform citizen science biodiversitas Indonesia
-                            </div>
 
                             <h1 className="mb-6 text-5xl leading-[1.1] font-black text-white drop-shadow-lg md:text-7xl">
                                 Jelajahi & Lindungi
