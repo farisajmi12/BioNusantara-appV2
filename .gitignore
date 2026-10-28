@@ -1,0 +1,78 @@
+# ==========================================
+# 1. Laravel & PHP Dependensi & Cache
+# ==========================================
+/vendor/
+/node_modules/
+/public/build/
+/public/hot/
+/public/storage/
+/.phpunit.cache/
+/.phpunit.result.cache/
+/bootstrap/ssr/
+Homestead.json
+Homestead.yaml
+.phpactor.json
+
+# Environment & Keamanan
+.env
+.env.backup
+.env.production
+/auth.json
+/storage/*.key
+
+# Storage & Logs
+/storage/logs/*
+!/storage/logs/.gitignore
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/app/public/observations/*
+!/storage/app/public/observations/.gitignore
+
+# ==========================================
+# 2. Python, Virtual Environment & Cache
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# ==========================================
+# 3. AI Engine: Dataset Gambar (Ukuran Gigabyte)
+# ==========================================
+ai_engine/temp/
+ai_engine/dataset_*/
+ai_engine/dataset_auto/
+ai_engine/dataset_auto_skipped/
+ai_engine/*.zip
+ai_engine/*.tar.gz
+
+# ==========================================
+# 4. Model Machine Learning Besar (Bila tidak via LFS)
+# ==========================================
+# Catatan: Buka komentar baris di bawah jika model TIDAK ingin diunggah ke GitHub
+# *.h5
+# *.keras
+# *.pth
+# *.pt
+# *.onnx
+
+# ==========================================
+# 5. IDE, Editor & OS
+# ==========================================
+.DS_Store
+Thumbs.db
+/.fleet/
+/.idea/
+/.nova/
+/.vscode/
+/.zed/
+npm-debug.log*
+yarn-error.log*
